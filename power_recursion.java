@@ -6,7 +6,7 @@ public class power_recursion {
         int n,i;
         System.out.println("enter base value:");
         n=in.nextInt();
-        System.out.println("enter power value value:");
+        System.out.println("enter power value:");
         i=in.nextInt();
         System.out.println(pow(n,i));
     }
@@ -15,6 +15,6 @@ public class power_recursion {
             return 1;
         }
         return n*pow(n,i-1);
-
+        
             }
 }
